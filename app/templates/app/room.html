@@ -1,0 +1,34 @@
+{% extends 'main.html' %}
+{% block content %}
+
+<h1>Room templates</h1>
+
+{% for rooms in room %}
+{{rooms.name}}
+<p>{{ rooms.descrption }}</p>
+
+<div class="comment-wrapper">
+    <h3> Conversation </h3>
+    <hr>
+</div>
+{% endfor %}
+
+{% for message in messages %}
+<div>
+    <small>@{{message.user}}  {{message.created}}</small>
+</div>
+
+
+
+
+{% endfor %}
+
+
+<!-- Exercices Now -->
+
+<div class="now">
+    <div class="now-now"></div>
+</div>
+
+
+{% endblock content %}

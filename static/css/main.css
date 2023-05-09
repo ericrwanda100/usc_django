@@ -1,0 +1,500 @@
+@import url('ttps://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.button-message{
+    width: 10rem;
+    background-color: var(--red);
+    border-color: var(--red);
+}
+.button-message:hover{
+    background-color: #d8172e;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: rgb(245 242 242);
+}
+:root{
+    --blue: #0c1f3e;  
+    --white: #fff; 
+    --red: #d8172e;
+}
+.navbar-brand img{
+    max-width: 13rem;
+}
+.navbar {
+    background-color: var(--blue) !important;
+}
+.nav-item a{
+    color: var(--white);
+}
+.nav-item a:hover{
+    color: var(--white);
+    background-color: #d8172e;
+}
+.review-img{
+    font-size: 3rem;
+}
+.review-customer{
+padding: 5rem;
+color: white;
+background-color: #d8172e;
+}
+.review-customer .row{
+    padding: 1rem;
+}
+.customer-comment p{
+   font-size: 1.8rem; 
+   color: #0c1f3e;
+}
+.customer-comment h3{
+    font-size: 2rem;
+    color: #0c1f3e;
+}
+.dropdown-menu li a{
+    color: var(--blue);
+}
+.body-img{
+    background: url("/static/img/BC-Blog_StudyAbroad_2.18.20_3.jpg");
+    padding: 200px 50px 0px 30px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 52.47rem;
+}
+.body-text{
+    background-color: var(--blue);
+    max-width: 30rem;
+    padding: 1.25rem;
+    padding-top: 1.2rem;
+}
+.body-text{
+    color: white;
+    font-size: 1.25rem;
+}
+.body-text h3{
+    font-size: 1.2rem;
+}
+.why-choose-us img{
+    max-width: 100%;
+}
+.universities-detail img{
+    width: 10rem;
+    padding: 1rem;
+    
+}
+.universities-detail{
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px rgb(240, 230, 230); 
+    border-bottom: .3rem solid var(--red);
+    min-width: 20rem;
+}
+.universities-detail p{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+/***********************************BUTTON BODY***********************************/
+.button-body{
+    background-color: var(--red);
+
+}
+.button-body:hover{
+    background-color: var(--red);
+}
+/***********************************BUTTON BODY***********************************/
+
+.director-msg-text{
+    font-size: 1.3rem;
+    text-align: justify;
+    padding: 8rem 5rem 0rem 5rem;
+}
+.director-msg-head-text{
+    font-size: 2.5rem;
+    color: var(--blue);
+}
+.director-img img{
+    max-width: 100%;
+}
+/***********************************SEERVICES***********************************/
+
+.services-h1{
+    font-size: 5rem;
+    text-align: center;
+    color: white;
+    background-color: var(--blue);
+    padding: 2rem;   
+}
+.services .row{
+    padding-top: 2rem;
+}
+.services-section .col{
+   text-align: justify;
+   padding: 2rem; 
+}
+.services-section .col h3{
+    text-align: center;
+    color: var(--blue);
+    font-size: 1.6rem;
+}
+.services-section h1 {
+    color: var(--blue);
+    font-size: 2.5rem;
+}
+.services-section .col p{
+    font-size: 1.3rem;
+}
+.why-choose-us h1{
+    color: var(--red)
+}
+.why-choose-us{
+    background-color: #323f53;
+}
+.why-choose-us .col p{
+    color: white;
+    font-size: 1.5rem;
+}
+.why-choose-us .col .col-one{
+    padding-top: 10rem;
+}
+
+.why-choose-us .col  img{
+    width: 40rem;
+}
+.services-section .container .row .col i{
+    font-size: 5rem;
+    color: var(--blue);
+}
+
+/***********************************FOOTER***********************************/
+.footer .social-media{
+    display: flex;
+    justify-content: flex-start;
+}
+.social-media i{
+    color: white;
+    font-size: 2rem;
+}
+.footer-link a{
+    text-decoration: none;
+    color: white;
+}
+.footer-link h3{
+    color: white;
+}
+
+.footer .container .row .col-sm-5 h3, .footer .container .row .col-sm-5 p {
+    color: white;
+    text-align: justify;
+}
+.footer .container .row .col-sm-5 h3{
+    font-size: 1.8rem;
+}
+
+.footer .container .row .col-sm-5 p{
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+.footer{
+    background-color: var(--blue);
+}
+/***********************************About***********************************/
+.about{
+    background: url("/static/img/student-freedom-of-expression.xe305a51e.png");
+    padding-top: 10rem;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+
+}
+.about .container .row .col-8{
+    background-color: var(--blue);
+    padding: 1rem;
+    border-radius: 5%;
+    margin-bottom: 2rem;
+}
+.about .container .row .col-8 p{
+    color: white;
+    font-size: 1.2rem;
+}
+.about .container .row .col-8 h1{
+    color: white;
+}
+.about-section{
+    background-color: rgb(213, 201, 201);
+    padding-top: 2rem;
+}
+.about-section p{
+    text-align: justify;
+    padding: 0% 2% 0% 2%;
+    font-size: 1.2rem;
+}
+/***********************************Event***********************************/
+
+.events p{
+ font-size: 1.2rem;
+}
+.events h1{
+    font-size: 1.8rem;
+}
+.events ul li{
+    font-size: 1.2rem;
+}
+
+.event-one-one{
+    background-image: url("/static/img/Education_Fair_one.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 30rem;
+    
+}
+.event-one-one-text{
+    background-color: #0c1f3e;
+    margin-top: 25rem;
+    transition: 1s;
+    color: white;
+    padding: 1.4rem;
+    width: 100%;
+}
+
+.event-one-one-text p{
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.event-one-one-text h1{
+    font-size: 2.5rem;
+    text-align: center;
+}
+.event-one-one .event-one-one-text:hover {
+    transform: translatey(-80%);
+}
+.event-button{
+    background-color: var(--red);
+    border-color: var(--red);
+}
+.event-one-oneevent-button:hover{
+    background-color: var(--red);
+    border-color: var(--red);
+}
+.box-now h1{
+    font-size: 2.5rem;
+}
+
+
+
+/***********************************Services***********************************/
+.services .h1{
+    font-size: 2.5rem;
+}
+.services-h1 h1{
+    
+}
+
+.services .row .col-sm{
+    border: 2px solid var(--red);
+    padding: 1.5rem;
+   
+}
+.services .row{
+    display: flex;
+    row-gap: 1rem;
+    column-gap: 1rem;
+    text-align: justify;
+}
+.services .row i{
+    font-size: 5rem;
+    padding: 0rem 0rem 1.2rem 0rem;
+    color: var(--blue);
+}
+.services .row h3{
+     color: var(--blue);
+}
+.services .row .col-sm p{
+    font-size: 1.2rem;
+}
+.services .row .col-sm h3{
+    font-size: 1.8rem;
+}
+
+/***********************************Contact us***********************************/
+.contact .row{
+    padding-top: 5rem;
+}
+.contact-h1 h1{
+    font-size: 5rem;
+    text-align: center;
+    color: white;
+    background-color: var(--blue);
+    padding: 2rem;
+    
+}
+.contact .headerer{
+    font-size: 2.5rem;
+    padding: 3rem;
+}
+.contact .row h1 {
+    font-size: 1.8rem;
+    opacity: .7;
+}
+.contact .row h3{
+    font-size: 1.5rem;
+    opacity: .9;
+}
+.contact .row p{
+    font-size: 1.2rem;
+}
+.contact .row p i{
+    font-size: 1.5rem;
+    color: var(--red);
+}
+.container .row label{
+    font-size: 1.2rem;
+}
+.container .row .btn-dark{
+    width: 10rem;
+    background-color: var(--red);
+    border-color: var(--red);
+}
+
+/***********************************Poland***********************************/
+
+/* .poland .body-image{
+    background-image: url("/static/img/warsow.jpg/");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position: center;
+    overflow: hidden;
+    margin-bottom: 5rem;
+} */
+
+
+
+.poland .body-image .text h3{
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+.poland .body-image .text p{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 1.2rem;
+    color: white;
+}
+.poland .body-image .text  .btn{
+    background-color: var(--blue);
+    border-color: var(--blue);
+}
+.poland .logo-img img{
+    width: 12rem;
+    padding-bottom: 1rem;
+}
+.poland-two{
+    display: flex;
+    align-items: flex-end;
+}
+.opportunities-poland img{
+    width: 10rem;
+    margin: auto;
+}
+.opportunities-poland p{
+    font-size: 1.5rem;
+}
+.poland h1{
+    font-size: 3rem;
+    padding-top: 4rem;
+}
+.poland h3{
+    font-size: 2.5rem;
+}
+.poland h4{
+    padding: 1rem;
+}
+.poland p{
+    font-size: 1.6rem;
+}
+/* .colStart {
+    position: relative;
+}
+.body-image{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Background color with opacity 
+    padding: 10px;
+} */
+
+.body-image img{
+    width: 100%;
+    height: 30rem;
+    object-fit: contain;
+}
+.poland .body-image{
+    position: relative;
+  display: inline-block;
+}
+.poland .body-image .text {
+    position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  /* padding: 10px; */
+  text-align: center;
+}
+
+
+/***********************************Gallery***********************************/
+.gallery img{
+    box-shadow: .5rem .5rem.5rem .5rem rgb(223, 222, 222) ;
+}
+.gallery-start .row{
+    padding-top: 1rem;
+}
+.gallery img{
+    width: 100%;
+}
+.gallery-header h1{
+    font-size: 5rem;
+    text-align: center;
+    color: white;
+    background-color: var(--blue);
+    padding: 2rem;
+}
+.events-h1 h1{
+    font-size: 5rem;
+    text-align: center;
+    color: white;
+    background-color: var(--blue);
+    padding: 2rem;
+}
+
+
+
+
+
+/* Other css */
+.now{
+    height: 30rem;
+    width: 30rem;
+    background-color: red;
+}
+.now-now{
+    height: 10rem;
+    width: 10rem;
+    background-color: white;
+    transition: 1s ease-in-out;
+}
+.now:hover .now-now{
+    transform: translate(100%);
+}

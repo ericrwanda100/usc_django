@@ -216,3 +216,8 @@ def otherUniversity(request):
     context = {}
     return render(request, 'app/otherUniversity.html', context)
 
+
+def loginUpdate(request):
+    context= {}
+    return render(request,'app/login_update.html', context)
+

@@ -42,4 +42,5 @@ urlpatterns = [
     path('canada',views.canada, name='canada'),
     path('loginweek', views.loginweek, name='loginweek'),
     path('otherUniversity', views.otherUniversity, name='otherUniversity'),
+    path('login_update',views.loginUpdate, name='login_update')
 ]
